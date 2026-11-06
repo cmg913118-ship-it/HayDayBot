@@ -54,9 +54,10 @@ class MainActivity : AppCompatActivity() {
         switchFactory = b.toggleFactory.findViewById(R.id.switchTask)
         switchOrders  = b.toggleOrders.findViewById(R.id.switchTask)
 
-        b.toggleCrops.findViewById<android.widget.TextView>(R.id.tvTaskName).text   = "🌽  Crops"
-        b.toggleAnimals.findViewById<android.widget.TextView>(R.id.tvTaskName).text = "🐄  Animals"
-        b.toggleFactory.findViewById<android.widget.TextView>(R.id.tvTaskName).text = "🏭  Factory"
+        b.toggleCrops.tvTaskName.text = "Crops"
+b.toggleAnimals.tvTaskName.text = "Animals"
+b.toggleFactory.tvTaskName.text = "Factory"
+b.toggleOrders.tvTaskName.text = "Orders"  Factory"
         b.toggleOrders.tvTaskName.text
 
         setupButtons()
