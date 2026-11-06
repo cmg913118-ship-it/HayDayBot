@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
         b.toggleCrops.findViewById<android.widget.TextView>(R.id.tvTaskName).text   = "🌽  Crops"
         b.toggleAnimals.findViewById<android.widget.TextView>(R.id.tvTaskName).text = "🐄  Animals"
         b.toggleFactory.findViewById<android.widget.TextView>(R.id.tvTaskName).text = "🏭  Factory"
-        b.toggleOrders.findViewById<android.widget.TextView>(R.id.tvTaskName).text  = "📦  Orders"
+        b.toggleOrders.tvTaskName.text
 
         setupButtons()
         observeStats()
