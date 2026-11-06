@@ -49,17 +49,10 @@ class MainActivity : AppCompatActivity() {
         b = ActivityMainBinding.inflate(layoutInflater)
         setContentView(b.root)
 
-        switchCrops   = b.toggleCrops.findViewById(R.id.switchTask)
-        switchAnimals = b.toggleAnimals.findViewById(R.id.switchTask)
-        switchFactory = b.toggleFactory.findViewById(R.id.switchTask)
-        switchOrders  = b.toggleOrders.findViewById(R.id.switchTask)
-
         b.toggleCrops.tvTaskName.text = "Crops"
 b.toggleAnimals.tvTaskName.text = "Animals"
 b.toggleFactory.tvTaskName.text = "Factory"
-b.toggleOrders.tvTaskName.text = "Orders"  Factory"
-        b.toggleOrders.tvTaskName.text
-
+b.toggleOrders.tvTaskName.text = "Orders"
         setupButtons()
         observeStats()
         observeLogs()
